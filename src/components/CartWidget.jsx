@@ -1,13 +1,9 @@
-// src/components/CartWidget.jsx
-import React from 'react';
-
-const CartWidget = () => {
-  return (
-    <div className="cart-widget">
-      <i className="bi bi-cart"></i>
-
-    </div>
-  );
-}
-
-export default CartWidget;
+import  cart  from "../assets/burger.png" ;
+export const CartWidget = () => {
+return(
+<> 
+    <img src={cart} alt="cart" />
+    <span>89</span>
+</>
+);
+};
